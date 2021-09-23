@@ -36,7 +36,7 @@ body {
 .header-container {
     display: flex;
     padding: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 .header-container .content, .image {
     width: 50%;
@@ -66,10 +66,17 @@ body {
     display: inline-block;
     margin-top: 15px;
 }
+.link-button:hover {
+    color: #222f3e;
+    background-image: none;
+    border: 1px solid #47aefa;
+
+}
 /* Dream Starts */
 .dream-container {
     display: flex;
     background-image: url(images/about-bg.jpg);
+    padding: 50px 0;
 }
 .dream-container .image, .content {
     width: 50%;
